@@ -1,0 +1,460 @@
+.section_title_container {
+  display: flex;
+  justify-content: center;
+}
+
+.section_title_container .section_title {
+  width: 18%;
+  min-width: 150px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+
+.section_title_container .section_title .square {
+  height: 18px;
+  width: 18px;
+}
+
+.section_title_container .section_title .go_left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section_title_container .section_title .go_left .left {
+  border-width: 0 0 1px 1px;
+  border-color: #9f449b;
+  border-style: solid;
+}
+
+.section_title_container .section_title .go_center {
+  display: flex;
+  justify-content: center;
+}
+
+.section_title_container .section_title .go_center h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 200%;
+  font-weight: 300;
+  color: #676767;
+}
+
+.section_title_container .section_title .go_center h3 span {
+  color: #9f449b;
+}
+
+.section_title_container .section_title .go_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section_title_container .section_title .go_right .right {
+  border-width: 1px 1px 0 0;
+  border-color: #9f449b;
+  border-style: solid;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-width {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/* ********************* START HEADER ************************* */
+/* header */
+header {
+  background-image: url("../img/coverPhoto.jpg");
+  background-size: 100% auto;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.41026%;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container .logo {
+  background-image: url("../img/logo.png");
+  background-size: 35% auto;
+  background-position: center;
+  width: 100%;
+  height: 0;
+  padding-bottom: 14.49275%;
+  display: block;
+  padding-bottom: 10.49275%;
+  background-repeat: no-repeat;
+}
+
+.text_header_container h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.text_header_container p {
+  font-size: 1.15em;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  line-height: 1.50em;
+}
+
+/* BUTTONS */
+/* HOVERICONS SVG IMPLEMENTATION */
+.cls-1, .cls-2, .cls-4 {
+  fill: #fff;
+  transition: 1s;
+}
+
+.cls-1 {
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  fill-opacity: 0.1;
+}
+
+.cls-1:hover {
+  stroke: #9f449b;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  fill-opacity: 1;
+  fill: #9f449b;
+}
+
+.cls-1, .cls-2 {
+  fill-rule: evenodd;
+}
+
+.cls-3, .cls-4 {
+  font-size: 18px;
+}
+
+.cls-4 {
+  text-anchor: middle;
+  font-family: latoregular, sans-serif;
+}
+
+/*First row*/
+.first_header_container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  padding: 5% 0 0 0;
+}
+
+.first_header_container .img_container {
+  width: 16.6%;
+}
+
+.first_header_container svg {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Second row*/
+.second_header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 0 2% 0;
+}
+
+.second_header_container .header_column {
+  width: 33.2%;
+  display: flex;
+}
+
+.second_header_container .img_container {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.second_header_container svg {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+/*Third row*/
+.third_header_container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+}
+
+.third_header_container .img_container {
+  width: 16.6%;
+}
+
+.third_header_container svg {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+}
+
+/*************** END HEADER ****************** */
+/************** NAVIGATION START **************** */
+.navigation_content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation_logo {
+  width: 15%;
+  min-width: 116px;
+  padding: 3% 0 3% 0;
+}
+
+.navigation_content ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.navigation_content ul li {
+  padding: 1em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.navigation_content ul li a {
+  text-decoration: none;
+  color: #676767;
+}
+
+.navigation_content ul li a:hover {
+  color: #9f449b;
+}
+
+/*************** END NAVIGATION ****************** */
+/************** FOUR_ICONS START **************** */
+.four_icons {
+  background-color: #eeeeee;
+}
+
+.four_icon_container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.four_icons_column {
+  text-align: center;
+  width: 25%;
+  font-family: 'Lato', sans-serif;
+}
+
+.four_icons_column img {
+  width: 50%;
+  padding-top: 40%;
+}
+
+.four_icons_column h2 {
+  font-size: 1.5em;
+  color: #676767;
+  padding: 14% 0;
+  font-weight: 400;
+}
+
+.four_icons_column p {
+  color: #676767;
+  padding-bottom: 55%;
+  line-height: 1.9em;
+  font-weight: 300;
+}
+
+/*************** END FOUR_ICONS ****************** */
+/*************** START ABOUT-US ****************** */
+.about_us {
+  background-color: white;
+}
+
+.about_content_container {
+  display: flex;
+  justify-content: center;
+  padding: 10% 0 15% 0;
+}
+
+.devices_img {
+  background-image: url(../img/devices_photo_23.png);
+  background-size: 100% auto;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 31.73832%;
+  margin-right: 3%;
+}
+
+.about_description {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.about_description p {
+  max-width: 460px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+.about_description button {
+  padding: 20px 45px;
+  border: none;
+  background-color: #9f449b;
+  background-color: #9f449b;
+  border-radius: 5px;
+}
+
+.about_description button:hover {
+  border-bottom: 2px solid #6b2e68;
+}
+
+.about_description button a {
+  text-decoration: none;
+  font-size: 1.6em;
+  color: white;
+}
+
+/*************** END ABOUT-US ****************** */
+/*************** START FIRST-QUOTE ****************** */
+.first_quote {
+  background-image: url(../img/quote_bg_26.jpg);
+  background-size: 100% auto;
+  width: 100%;
+  height: 0;
+  padding-bottom: 31.19658%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+}
+
+.first_quote .quote_img {
+  background-image: url(../img/quote_icon.png);
+  background-size: 9% auto;
+  width: 100%;
+  padding-bottom: 10.69565%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.first_quote p {
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 2em;
+  border: 1px solid red;
+}
+
+/*************** END FIRST-QUOTE ****************** */
+/*************** START OUR-TEAM ****************** */
+#team_title {
+  padding-top: 10%;
+}
+
+.team_buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.left_button {
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 3px;
+}
+
+.right_button {
+  background-image: url(../img/team_button_right.png);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+
+.team_container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+}
+
+.person_container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  padding: 12% 0 0 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 2em;
+}
+
+.person_container .team_photo {
+  height: 250px;
+  width: 250;
+  background-color: #cdcdcd;
+  border-radius: 125px;
+  min-width: 250px;
+}
+
+.person_container h3 {
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #484848;
+  padding: 30% 0 5% 0;
+}
+
+.person_container p {
+  font-weight: 300;
+  color: #777777;
+  padding: 0 0 10% 0;
+}
+
+.person_container a {
+  padding: 3%;
+}
+
+/*************** END OUR-TEAM ****************** */
+/*************** START OUR-SKILLS ****************** */
+.skillbar_container {
+  width: 420px;
+}
+
+.skillbar_container .skillbar {
+  width: 100%;
+  height: 20px;
+  border: 1px #111 solid;
+}
